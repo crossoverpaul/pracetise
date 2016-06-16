@@ -8,6 +8,8 @@ import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.action.search.SearchResponse;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;
+import org.elasticsearch.common.settings.ImmutableSettings;
+import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.index.query.QueryBuilder;
 import org.elasticsearch.index.query.QueryBuilders;
@@ -23,16 +25,16 @@ public class ElasticSearchHandler {
 
     public ElasticSearchHandler(){    
         //使用本机做为节点
-        this("192.168.19.177");
+        this("127.0.0.1");
     }
     
     public ElasticSearchHandler(String ipAddress){
         //集群连接超时设置
-        /*  
-              Settings settings = ImmutableSettings.settingsBuilder().put("client.transport.ping_timeout", "10s").build();
-            client = new TransportClient(settings);
-         */
-        client = new TransportClient().addTransportAddress(new InetSocketTransportAddress(ipAddress, 8200));
+          
+        Settings settings = ImmutableSettings.settingsBuilder().put("cluster.name", "cupid-es").put("client.transport.ping_timeout", "10s").build();
+        client = new TransportClient(settings).addTransportAddress(new InetSocketTransportAddress(ipAddress, 8300));
+        
+        // client = new TransportClient().addTransportAddress(new InetSocketTransportAddress(ipAddress, 8300));
     }
     
     
