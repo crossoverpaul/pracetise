@@ -7,6 +7,7 @@ import java.util.List;
 import org.codehaus.jackson.map.ObjectMapper;
 import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.action.search.SearchResponse;
+import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;
 import org.elasticsearch.common.settings.ImmutableSettings;
 import org.elasticsearch.common.settings.Settings;
@@ -119,5 +120,11 @@ public class ESClient {
         }
         return datumList;
     }
+
+	public static Client initClient(String clusterName) {
+		 Settings settings = ImmutableSettings.settingsBuilder().put("cluster.name", clusterName).put("client.transport.ping_timeout", "10s").build();
+		 Client  client = new TransportClient(settings).addTransportAddress(new InetSocketTransportAddress("127.0.0.1", 8300));
+		return client;
+	}
     
 }
