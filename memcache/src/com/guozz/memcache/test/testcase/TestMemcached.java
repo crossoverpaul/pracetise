@@ -15,7 +15,7 @@ public class TestMemcached extends TestCase{
     public void testCache() {  
           
         TBean tb = new TBean();  
-        tb.setName("E网打进");  
+        tb.setName("E网打进1");  
         cache.add("bean", tb);  
           
         TBean tb1 = (TBean) cache.get("bean");  
@@ -24,6 +24,7 @@ public class TestMemcached extends TestCase{
           
         tb1 = (TBean) cache.get("bean");  
         System.out.println("name=" + tb1.getName());  
+        System.out.println("-----------");
     }  
   
     @Override  
