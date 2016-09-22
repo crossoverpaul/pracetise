@@ -45,7 +45,7 @@ public class ESClient {
         
         //客户端对象初始化集群内结点,绑定多个ip
         //client.addTransportAddress(new InetSocketTransportAddress("192.168.0.149", 9300));
-        client.addTransportAddress(new InetSocketTransportAddress("192.168.0.162", 9300));
+        client.addTransportAddress(new InetSocketTransportAddress("localhost", 9200));
         
         
         //搜索,根据Id查询

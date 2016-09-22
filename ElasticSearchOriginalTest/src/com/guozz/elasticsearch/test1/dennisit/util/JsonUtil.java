@@ -2,6 +2,7 @@ package com.guozz.elasticsearch.test1.dennisit.util;
 
 import java.io.IOException;
 
+import org.codehaus.jackson.map.ObjectMapper;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentFactory;
 
@@ -26,10 +27,25 @@ public class JsonUtil {
             .field("funciton",medicine.getFunction())
             .endObject();
             jsonData = jsonBuild.string();
-            System.out.println(jsonData);
+            //System.out.println(jsonData);
         } catch (IOException e) {
             e.printStackTrace();
         }
         return jsonData;
+    }
+    /**
+     * 将任意对象转换成json
+     * @param object
+     * @return
+     */
+    public static String object2Json(Object object){
+    	ObjectMapper mapper = new ObjectMapper();  
+		 String json="";
+		try {
+			json = mapper.writeValueAsString(object);
+		} catch (IOException e) {
+			e.printStackTrace();
+		}  
+		return json;
     }
 }
