@@ -7,7 +7,7 @@ import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
 
 /**
- * 验证SimpleDateFormat在多线程下有问题
+ * 验证SimpleDateFormat在多线程下有问题,测试
  * @author guozhizhong
  * @version 2017-01-13 09:27:13
  */
@@ -27,7 +27,7 @@ public class DateUtil {
 				public void run() {
 				 for (int i = 0; i < 1000000; i++) {
                         try {
-                            DATE_FORMAT.parse("2014-01-01 00:00:00");
+                            DATE_FORMAT.parse("2014-01-01 00:00:00"); 
                         } catch (ParseException e) {
                             e.printStackTrace();
                         }
