@@ -9,9 +9,7 @@
     <packaging>pom</packaging>
     <version>1.0-SNAPSHOT</version>
     <modules>
-        <module>untitled</module>
         <module>practise-slf4j</module>
+        <module>practise-java8</module>
     </modules>
-
-
 </project>
