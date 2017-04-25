@@ -12,5 +12,6 @@
         <module>practise-slf4j</module>
         <module>practise-java8</module>
         <module>practise-proxy</module>
+        <module>practise-thread</module>
     </modules>
 </project>
