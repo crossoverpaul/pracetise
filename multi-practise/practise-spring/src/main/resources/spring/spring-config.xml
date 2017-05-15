@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:mvc="http://www.springframework.org/schema/mvc"
+	xmlns:util="http://www.springframework.org/schema/util"
+	xmlns:context="http://www.springframework.org/schema/context"
+	xsi:schemaLocation="
+    http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+    http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc-3.0.xsd
+    http://www.springframework.org/schema/util http://www.springframework.org/schema/util/spring-util-3.0.xsd
+    http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-3.0.xsd
+    ">
+
+		<!--<bean class="com.guozz.test.spring.interfaces.impl.HelloImpl"/>-->
+	<!--<bean id="bean" class="com.guozz.test.spring.interfaces.impl.HelloImpl"/>-->
+	<!--<bean name="bean" class="com.guozz.test.spring.interfaces.impl.HelloImpl"/>-->
+
+	<!--<bean name="bean1;alias11,alias12;alias13 alias14" class="com.guozz.test.spring.interfaces.impl.HelloImpl"/>-->
+	<!-- 当指定id时，name指定的标识符全部为别名 -->
+	<!--<bean id="bean2" name="alias21;alias22"	  class="com.guozz.test.spring.interfaces.impl.HelloImpl"/>-->
+
+
+	<!-- spring 实例化-->
+	<!-- <bean id="bean1" class="com.guozz.test.spring.interfaces.impl.HelloImpl2"/>
+	<bean id="bean2" class="com.guozz.test.spring.interfaces.impl.HelloImpl2">
+		指定构造器参数
+		<constructor-arg index="0" value="Hello Spring"/>
+	</bean> -->
+	<!-- 静态工厂方法实例化bean -->
+	<!-- <bean id="bean3" class="com.guozz.test.spring.interfaces.impl.HelloStaticFactory" factory-method="newInstance">
+		<constructor-arg index="0" value="say Hello Factorymethod"></constructor-arg>
+	</bean> -->
+	
+	<bean id="byIndex" class="com.guozz.test.spring.interfaces.impl.HelloImpl3">
+		<constructor-arg index="0" value="Hello World"/>
+		<constructor-arg index="1" value="1"></constructor-arg>
+	</bean>
+	
+	<bean id="byType" class="com.guozz.test.spring.interfaces.impl.HelloImpl3">
+		<constructor-arg type="java.lang.String" value="Hello World"/>
+		<constructor-arg type="int" value="2"/>
+	</bean>
+	
+	<bean id="byName" class="com.guozz.test.spring.interfaces.impl.HelloImpl3">
+		<constructor-arg name="message" value="Hello World"></constructor-arg>
+		<constructor-arg name="index" value="3"/>
+	</bean>
+	
+	
+	<bean id="bean" class="com.guozz.test.spring.interfaces.impl.HelloImpl4">
+		<property name="message" value="hello world setter"></property>
+		<property name="index" value="11"></property>
+	</bean>
+	
+	
+	
+	
+</beans>
