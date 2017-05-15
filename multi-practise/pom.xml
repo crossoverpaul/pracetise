@@ -13,5 +13,6 @@
         <module>practise-java8</module>
         <module>practise-proxy</module>
         <module>practise-thread</module>
+        <module>practise-spring</module>
     </modules>
 </project>
