@@ -2,18 +2,28 @@ package com.guozz.spring.test;
 
 
 import com.guozz.test.spring.interfaces.Hello;
+import com.guozz.test.spring.interfaces.aop.IHelloWorldService;
+import com.guozz.test.spring.interfaces.aop2.IHelloWorldService2;
 import com.guozz.test.spring.interfaces.impl.HelloImpl;
 import com.guozz.test.spring.interfaces.impl.HelloImpl2;
+
+import org.aspectj.lang.annotation.Before;
 import org.junit.Assert;
+import org.junit.BeforeClass;
 import org.junit.Test;
 import org.springframework.beans.factory.BeanFactory;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
 
 public class SpringTest {
+	
+	static BeanFactory beanFactory =null;
+	@BeforeClass
+	public static void beforeClass(){
+		 beanFactory =new ClassPathXmlApplicationContext("spring/spring-config.xml");
+	}
 
 	@Test
 	public void test1(){
-		BeanFactory beanFactory =new ClassPathXmlApplicationContext("spring/spring-*.xml");
 		HelloImpl hello = beanFactory.getBean(HelloImpl.class);
 		hello.sayHello();
 	}
@@ -21,20 +31,17 @@ public class SpringTest {
 
 	@Test
 	public void test2(){
-		BeanFactory beanFactory =new ClassPathXmlApplicationContext("spring/spring-*.xml");
 		HelloImpl hello = beanFactory.getBean("bean",HelloImpl.class);
 		hello.sayHello();
 	}
 	@Test
 	public void testName(){
-		BeanFactory beanFactory =new ClassPathXmlApplicationContext("spring/spring-*.xml");
 		HelloImpl hello = beanFactory.getBean("bean",HelloImpl.class);
 		hello.sayHello();
 	}
 
 	@Test
 	public void test5(){
-		BeanFactory beanFactory =new ClassPathXmlApplicationContext("spring/spring-*.xml");
 		//1根据id获取bean
 		Hello bean1 = beanFactory.getBean("bean1", Hello.class);
 		bean1.sayHello();
@@ -69,7 +76,6 @@ public class SpringTest {
 	 */
 	@Test
 	public void test6(){
-		BeanFactory beanFactory =new ClassPathXmlApplicationContext("spring/spring-*.xml");
 
 		Hello bean1 = beanFactory.getBean("bean1", HelloImpl2.class);
 		bean1.sayHello();
@@ -84,7 +90,6 @@ public class SpringTest {
 	 */
 	@Test
 	public void test7(){
-		BeanFactory beanFactory =new ClassPathXmlApplicationContext("spring/spring-*.xml");
 
 		Hello bean1 = beanFactory.getBean("bean3", Hello.class);
 		bean1.sayHello();
@@ -96,8 +101,6 @@ public class SpringTest {
 	 */
 	@Test
 	public void test8(){
-		BeanFactory beanFactory =new ClassPathXmlApplicationContext("spring/spring-*.xml");
-
 		Hello bean1 = beanFactory.getBean("byIndex", Hello.class);
 		bean1.sayHello();
 		
@@ -114,11 +117,76 @@ public class SpringTest {
 	 */
 	@Test
 	public void test9(){
-		BeanFactory beanFactory =new ClassPathXmlApplicationContext("spring/spring-*.xml");
-
 		Hello bean1 = beanFactory.getBean("bean", Hello.class);
 		bean1.sayHello();
 		
 	}
+
+
+
+	/**
+	 *测试Aop
+	 */
+	@Test
+	public void test10(){
+		IHelloWorldService helloWorldService = beanFactory.getBean("helloWorldService",IHelloWorldService.class);
+		helloWorldService.sayHello();
+	}
+
+
+	/**
+	 *测试BeforeAdvice
+	 */
+	@Test
+	public void test11(){
+		IHelloWorldService2 helloWorldService2 = beanFactory.getBean("helloWorldService2",IHelloWorldService2.class);
+		helloWorldService2.sayBefore("before");
+	}
+
+
+	/**
+	 *测试AfterAdvice
+	 */
+	@Test
+	public void test12(){
+		IHelloWorldService2 helloWorldService2 = beanFactory.getBean("helloWorldService2",IHelloWorldService2.class);
+		helloWorldService2.sayAfterReturning();
+	}
+	
+	/**
+	 *测试AfterThrowing
+	 */
+	@Test(expected = RuntimeException.class)  
+	public void test13(){
+		System.out.println("======================================");  
+		IHelloWorldService2 helloWorldService2 = beanFactory.getBean("helloWorldService2",IHelloWorldService2.class);
+		helloWorldService2.sayAfterThrowing();
+		System.out.println("====================================== ");  
+	}
+	
+	
+	/**
+	 *测试Afterfinally
+	 */
+	@Test(expected = RuntimeException.class)  
+	public void test14(){
+		System.out.println("======================================");  
+		IHelloWorldService2 helloWorldService2 = beanFactory.getBean("helloWorldService2",IHelloWorldService2.class);
+		helloWorldService2.sayAfterFinally();
+		System.out.println("====================================== ");  
+	}
+	
+	/**
+	 *测试around
+	 */
+	@Test  
+	public void test15(){
+		  System.out.println("======================================");  
+		  IHelloWorldService2 helloWorldService2 = beanFactory.getBean("helloWorldService2",IHelloWorldService2.class);
+		  helloWorldService2.sayAround("haha");  
+		  System.out.println("======================================");  
+	}
+	
+	
 
 }

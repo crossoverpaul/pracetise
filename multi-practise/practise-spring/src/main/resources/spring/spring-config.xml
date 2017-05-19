@@ -30,7 +30,7 @@
 		<constructor-arg index="0" value="say Hello Factorymethod"></constructor-arg>
 	</bean> -->
 	
-	<bean id="byIndex" class="com.guozz.test.spring.interfaces.impl.HelloImpl3">
+	<!-- <bean id="byIndex" class="com.guozz.test.spring.interfaces.impl.HelloImpl3">
 		<constructor-arg index="0" value="Hello World"/>
 		<constructor-arg index="1" value="1"></constructor-arg>
 	</bean>
@@ -49,8 +49,10 @@
 	<bean id="bean" class="com.guozz.test.spring.interfaces.impl.HelloImpl4">
 		<property name="message" value="hello world setter"></property>
 		<property name="index" value="11"></property>
-	</bean>
+	</bean> -->
 	
+	<import resource="classpath*:spring/spring-config-aop2.xml"/>
+	<!-- <import resource="classpath*:spring/spring-config-aop.xml"/> -->
 	
 	
 	
