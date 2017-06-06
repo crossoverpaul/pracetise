@@ -14,5 +14,6 @@
         <module>practise-proxy</module>
         <module>practise-thread</module>
         <module>practise-spring</module>
+        <module>practise-netty</module>
     </modules>
 </project>
