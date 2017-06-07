@@ -15,5 +15,6 @@
         <module>practise-thread</module>
         <module>practise-spring</module>
         <module>practise-netty</module>
+        <module>practise-json</module>
     </modules>
 </project>

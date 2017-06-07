@@ -1,0 +1,13 @@
+{
+  "name" : "SH Wild Park",
+  "city" : "ShangHai",
+  "animals" : [ {
+    "@class" : "com.guozz.practise.json.chapter3.subTypes.Lion",
+    "name" : "Samba",
+    "type" : "carnivorous"
+  }, {
+    "@class" : "com.guozz.practise.json.chapter3.subTypes.Elephant",
+    "name" : "Manny",
+    "type" : "herbivorous"
+  } ]
+}
