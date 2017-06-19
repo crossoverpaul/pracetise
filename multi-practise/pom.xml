@@ -17,5 +17,6 @@
         <module>practise-netty</module>
         <module>practise-json</module>        
         <module>practise-mybatisSourceCode</module>
+		<module>practise-upgradJava</module>
     </modules>
 </project>
