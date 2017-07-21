@@ -17,5 +17,6 @@
         <module>practise-mybatisSourceCode</module>
 		<module>practise-upgradJava</module>
     <module>practise-spring-boot</module>
+    <module>practis-structure</module>
   </modules>
 </project>
