@@ -12,7 +12,7 @@ public class TestPreconditions {
 	private void doSomething(String name, int age, String desc) {
 		Preconditions.checkArgument(age >= 18 && age < 99, "age must in range (18,99)");
 		Preconditions.checkNotNull(name, "name may not be null");
-		Preconditions.checkArgument(desc !=null && desc.length() < 10, "desc too long, max length is ", 10);
+		Preconditions.checkArgument(desc !=null && desc.length() < 10, "desc too long,%s is max length ", 10);
 		
 	}
 }
