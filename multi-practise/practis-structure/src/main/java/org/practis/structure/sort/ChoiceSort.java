@@ -1,4 +1,4 @@
-package org.practis.structure;
+package org.practis.structure.sort;
 
 /**
  * 选择排序

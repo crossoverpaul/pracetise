@@ -1,4 +1,4 @@
-package org.practis.structure;
+package org.practis.structure.sort;
 /**
  * 冒泡排序
  * @author 郭智忠

@@ -1,4 +1,4 @@
-package org.practis.structure;
+package org.practis.structure.sort;
 
 public class InsertSort {
 
