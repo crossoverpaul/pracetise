@@ -19,5 +19,6 @@
     <module>practise-spring-boot</module>
     <module>practis-structure</module>
     <module>practise-guava</module>
+    <module>practise-upgrade</module>
   </modules>
 </project>
