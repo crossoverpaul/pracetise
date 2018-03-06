@@ -20,5 +20,6 @@
     <module>practis-structure</module>
     <module>practise-guava</module>
     <module>practise-upgrade</module>
+    <module>practise-storm</module>
   </modules>
 </project>
