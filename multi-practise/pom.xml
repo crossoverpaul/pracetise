@@ -21,5 +21,6 @@
     <module>practise-guava</module>
     <module>practise-upgrade</module>
     <module>practise-storm</module>
+    <module>practise-jodd</module>
   </modules>
 </project>
