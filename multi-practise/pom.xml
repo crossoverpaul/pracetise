@@ -22,5 +22,6 @@
     <module>practise-upgrade</module>
     <module>practise-storm</module>
     <module>practise-jodd</module>
+    <module>practise-promote</module>
   </modules>
 </project>
