@@ -21,7 +21,9 @@
 	<bean id="cacheManager" class="com.guozz.spring_cache.manager.MyCacheManager">
 		<property name="caches">
 			<set>
-				<bean	class="com.guozz.spring_cache.manager.MyCache" p:name="accountCache" />
+				<bean class="com.guozz.spring_cache.manager.MyCache">
+					<property name="name" value="accountCache"></property>
+				</bean>
 			</set>
 		</property>
 	</bean>
