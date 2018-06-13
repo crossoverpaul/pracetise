@@ -23,5 +23,6 @@
     <module>practise-storm</module>
     <module>practise-jodd</module>
     <module>practise-promote</module>
+    <module>practise-hadoop</module>
   </modules>
 </project>
