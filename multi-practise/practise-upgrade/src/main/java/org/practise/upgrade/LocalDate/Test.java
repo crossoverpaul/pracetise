@@ -2,8 +2,12 @@ package org.practise.upgrade.LocalDate;
 
 import java.time.DayOfWeek;
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.LocalTime;
+import java.time.ZoneId;
+import java.time.ZonedDateTime;
 import java.time.temporal.TemporalAdjusters;
+import java.util.Date;
 
 public class Test {
 
@@ -48,5 +52,15 @@ public class Test {
 		System.out.println(zero);
 		LocalTime mid = LocalTime.parse("12:00:00"); // 12:00:00
 		System.out.println(mid);
+		
+		System.out.println("----------------localDateTime---------------------");
+		ZoneId zoneId = ZoneId.systemDefault();
+		LocalDateTime todayStart=LocalDateTime.now().withHour(0).withMinute(0).withSecond(0).withNano(0);
+		ZonedDateTime zdt = todayStart.atZone(zoneId);
+		Date date = Date.from(zdt.toInstant());
+		
+		System.out.println(date);
+		
+		
 	}
 }
