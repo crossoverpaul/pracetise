@@ -24,5 +24,6 @@
     <module>practise-jodd</module>
     <module>practise-promote</module>
     <module>practise-hadoop</module>
-  </modules>
+        <module>practise-java8inaction</module>
+    </modules>
 </project>

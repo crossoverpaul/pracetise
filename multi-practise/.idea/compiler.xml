@@ -1,33 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
-    <resourceExtensions />
-    <wildcardResourcePatterns>
-      <entry name="!?*.java" />
-      <entry name="!?*.form" />
-      <entry name="!?*.class" />
-      <entry name="!?*.groovy" />
-      <entry name="!?*.scala" />
-      <entry name="!?*.flex" />
-      <entry name="!?*.kt" />
-      <entry name="!?*.clj" />
-      <entry name="!?*.aj" />
-    </wildcardResourcePatterns>
     <annotationProcessing>
-      <profile default="true" name="Default" enabled="false">
-        <processorPath useClasspath="true" />
-      </profile>
-      <profile default="false" name="Maven default annotation processors profile" enabled="true">
+      <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <processorPath useClasspath="true" />
+        <module name="practis-structure" />
+        <module name="practise-guava" />
+        <module name="practise-hadoop" />
+        <module name="practise-java8" />
+        <module name="practise-jodd" />
+        <module name="practise-json" />
+        <module name="practise-mybatisSourceCode" />
+        <module name="practise-netty" />
+        <module name="practise-promote" />
+        <module name="practise-proxy" />
         <module name="practise-slf4j" />
+        <module name="practise-spring" />
+        <module name="practise-spring-boot" />
+        <module name="practise-storm" />
+        <module name="practise-thread" />
+        <module name="practise-upgrade" />
+        <module name="practise-upgradJava" />
+        <module name="practisejava8inaction" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="multi-practise" target="1.5" />
-      <module name="practise-slf4j" target="1.5" />
+      <module name="multi-practise" target="1.8" />
+      <module name="practis-structure" target="1.8" />
+      <module name="practise-guava" target="1.8" />
+      <module name="practise-hadoop" target="1.8" />
+      <module name="practise-java8" target="1.8" />
+      <module name="practise-jodd" target="1.8" />
+      <module name="practise-json" target="1.8" />
+      <module name="practise-mybatisSourceCode" target="1.7" />
+      <module name="practise-netty" target="1.8" />
+      <module name="practise-promote" target="1.8" />
+      <module name="practise-proxy" target="1.8" />
+      <module name="practise-slf4j" target="1.8" />
+      <module name="practise-spring" target="1.8" />
+      <module name="practise-spring-boot" target="1.8" />
+      <module name="practise-storm" target="1.8" />
+      <module name="practise-thread" target="1.8" />
+      <module name="practise-upgrade" target="1.8" />
+      <module name="practise-upgradJava" target="1.8" />
+      <module name="practisejava8inaction" target="1.8" />
       <module name="untitled" target="1.5" />
       <module name="web-app" target="1.5" />
     </bytecodeTargetLevel>

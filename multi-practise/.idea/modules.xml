@@ -3,7 +3,24 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/multi-practise.iml" filepath="$PROJECT_DIR$/multi-practise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practis-structure/practis-structure.iml" filepath="$PROJECT_DIR$/practis-structure/practis-structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-guava/practise-guava.iml" filepath="$PROJECT_DIR$/practise-guava/practise-guava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-hadoop/practise-hadoop.iml" filepath="$PROJECT_DIR$/practise-hadoop/practise-hadoop.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-java8/practise-java8.iml" filepath="$PROJECT_DIR$/practise-java8/practise-java8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-jodd/practise-jodd.iml" filepath="$PROJECT_DIR$/practise-jodd/practise-jodd.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-json/practise-json.iml" filepath="$PROJECT_DIR$/practise-json/practise-json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-mybatisSourceCode/practise-mybatisSourceCode.iml" filepath="$PROJECT_DIR$/practise-mybatisSourceCode/practise-mybatisSourceCode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-netty/practise-netty.iml" filepath="$PROJECT_DIR$/practise-netty/practise-netty.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-promote/practise-promote.iml" filepath="$PROJECT_DIR$/practise-promote/practise-promote.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-proxy/practise-proxy.iml" filepath="$PROJECT_DIR$/practise-proxy/practise-proxy.iml" />
       <module fileurl="file://$PROJECT_DIR$/practise-slf4j/practise-slf4j.iml" filepath="$PROJECT_DIR$/practise-slf4j/practise-slf4j.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-spring/practise-spring.iml" filepath="$PROJECT_DIR$/practise-spring/practise-spring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-spring-boot/practise-spring-boot.iml" filepath="$PROJECT_DIR$/practise-spring-boot/practise-spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-storm/practise-storm.iml" filepath="$PROJECT_DIR$/practise-storm/practise-storm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-thread/practise-thread.iml" filepath="$PROJECT_DIR$/practise-thread/practise-thread.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-upgradJava/practise-upgradJava.iml" filepath="$PROJECT_DIR$/practise-upgradJava/practise-upgradJava.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-upgrade/practise-upgrade.iml" filepath="$PROJECT_DIR$/practise-upgrade/practise-upgrade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-java8inaction/practisejava8inaction.iml" filepath="$PROJECT_DIR$/practise-java8inaction/practisejava8inaction.iml" />
     </modules>
   </component>
 </project>
