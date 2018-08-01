@@ -45,7 +45,7 @@
       <module name="practise-thread" target="1.8" />
       <module name="practise-upgrade" target="1.8" />
       <module name="practise-upgradJava" target="1.8" />
-      <module name="practisejava8inaction" target="1.8" />
+      <module name="practisejava8inaction" target="8" />
       <module name="untitled" target="1.5" />
       <module name="web-app" target="1.5" />
     </bytecodeTargetLevel>
