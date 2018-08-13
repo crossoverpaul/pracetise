@@ -12,6 +12,7 @@
         <module name="practise-java8" />
         <module name="practise-jodd" />
         <module name="practise-json" />
+        <module name="practise-leetcode" />
         <module name="practise-mybatisSourceCode" />
         <module name="practise-netty" />
         <module name="practise-promote" />
@@ -34,6 +35,7 @@
       <module name="practise-java8" target="1.8" />
       <module name="practise-jodd" target="1.8" />
       <module name="practise-json" target="1.8" />
+      <module name="practise-leetcode" target="1.8" />
       <module name="practise-mybatisSourceCode" target="1.7" />
       <module name="practise-netty" target="1.8" />
       <module name="practise-promote" target="1.8" />
