@@ -45,8 +45,8 @@
       <file leaf-file-name="Test.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/practise-upgrade/src/main/java/org/practise/upgrade/LocalDate/Test.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="58" column="54" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="54" />
+            <state relative-caret-position="132">
+              <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
             </state>
           </provider>
         </entry>
@@ -109,67 +109,7 @@
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="PackagesPane" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="multi-practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-practise" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-practise" type="462c0819:PsiDirectoryNode" />
-              <item name="practise-upgrade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-practise" type="462c0819:PsiDirectoryNode" />
-              <item name="practise-upgrade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-practise" type="462c0819:PsiDirectoryNode" />
-              <item name="practise-upgrade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-practise" type="462c0819:PsiDirectoryNode" />
-              <item name="practise-upgrade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-practise" type="462c0819:PsiDirectoryNode" />
-              <item name="practise-upgrade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="multi-practise" type="b2602c69:ProjectViewProjectNode" />
-              <item name="multi-practise" type="462c0819:PsiDirectoryNode" />
-              <item name="practise-upgrade" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="upgrade" type="462c0819:PsiDirectoryNode" />
-              <item name="LocalDate" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -496,11 +436,12 @@
       <workItem from="1535364356296" duration="609000" />
       <workItem from="1535544153505" duration="629000" />
       <workItem from="1535554788769" duration="1307000" />
+      <workItem from="1536285145913" duration="22000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5780000" />
+    <option name="totallyTimeSpent" value="5802000" />
   </component>
   <component name="TodoView" selected-index="1">
     <todo-panel id="selected-file">
@@ -603,6 +544,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/practise-upgrade/src/main/java/org/practise/upgrade/LocalDate/Test.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1224">
+          <caret line="58" column="54" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/practise-upgrade/src/main/java/org/practise/upgrade/LocalDate/Test.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1248">
@@ -761,8 +709,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/practise-upgrade/src/main/java/org/practise/upgrade/LocalDate/Test.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="58" column="54" lean-forward="true" selection-start-line="58" selection-start-column="38" selection-end-line="58" selection-end-column="54" />
+        <state relative-caret-position="132">
+          <caret line="35" column="16" lean-forward="true" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
         </state>
       </provider>
     </entry>
