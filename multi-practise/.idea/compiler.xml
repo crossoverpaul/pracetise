@@ -25,6 +25,7 @@
         <module name="practise-upgrade" />
         <module name="practise-upgradJava" />
         <module name="practisejava8inaction" />
+        <module name="practisewebsoket" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -48,6 +49,7 @@
       <module name="practise-upgrade" target="1.8" />
       <module name="practise-upgradJava" target="1.8" />
       <module name="practisejava8inaction" target="8" />
+      <module name="practisewebsoket" target="1.8" />
       <module name="untitled" target="1.5" />
       <module name="web-app" target="1.5" />
     </bytecodeTargetLevel>
