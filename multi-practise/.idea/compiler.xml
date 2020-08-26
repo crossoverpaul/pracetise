@@ -6,27 +6,27 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="practise-promote" />
-        <module name="practise-upgrade" />
-        <module name="practise-java8inaction" />
-        <module name="practise-spring-boot" />
+        <module name="practise-jodd" />
+        <module name="practisewebsoket" />
+        <module name="practise-leetcode" />
         <module name="practisejava8inaction" />
         <module name="practise-thread" />
         <module name="practis-structure" />
         <module name="practise-netty" />
         <module name="practise-guava" />
-        <module name="practisewebsoket" />
-        <module name="practise-storm" />
+        <module name="practise-promote" />
         <module name="practise-json" />
-        <module name="practise-jodd" />
-        <module name="practise-mybatisSourceCode" />
-        <module name="practise-proxy" />
+        <module name="practise-storm" />
+        <module name="practise-java8inaction" />
         <module name="practise-slf4j" />
-        <module name="practise-leetcode" />
+        <module name="practise-spring-boot" />
         <module name="practise-websoket" />
-        <module name="practise-java8" />
-        <module name="practise-hadoop" />
         <module name="practise-spring" />
+        <module name="practise-java8" />
+        <module name="practise-upgrade" />
+        <module name="practise-hadoop" />
+        <module name="practise-proxy" />
+        <module name="practise-mybatisSourceCode" />
         <module name="practise-upgradJava" />
       </profile>
     </annotationProcessing>
@@ -36,11 +36,11 @@
       <module name="practise-guava" target="1.5" />
       <module name="practise-hadoop" target="1.5" />
       <module name="practise-java8" target="1.5" />
-      <module name="practise-java8inaction" target="1.5" />
+      <module name="practise-java8inaction" target="8" />
       <module name="practise-jodd" target="1.5" />
       <module name="practise-json" target="1.5" />
       <module name="practise-leetcode" target="1.5" />
-      <module name="practise-mybatisSourceCode" target="1.5" />
+      <module name="practise-mybatisSourceCode" target="1.7" />
       <module name="practise-netty" target="1.5" />
       <module name="practise-promote" target="1.5" />
       <module name="practise-proxy" target="1.5" />
@@ -50,7 +50,7 @@
       <module name="practise-storm" target="1.5" />
       <module name="practise-thread" target="1.5" />
       <module name="practise-upgrade" target="1.5" />
-      <module name="practise-upgradJava" target="1.5" />
+      <module name="practise-upgradJava" target="8" />
       <module name="practise-websoket" target="1.5" />
       <module name="practisejava8inaction" target="8" />
       <module name="practisewebsoket" target="1.8" />

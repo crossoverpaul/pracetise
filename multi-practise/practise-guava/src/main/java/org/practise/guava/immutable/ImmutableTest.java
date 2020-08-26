@@ -2,12 +2,10 @@ package org.practise.guava.immutable;
 
 import java.util.*;
 
-import org.junit.Test;
 
 public class ImmutableTest {
 
-	@Test
-    public void testJDKImmutable(){                                                                                                                                                                                                                                    
+    public void testJDKImmutable(){
         List<String> list=new ArrayList<String>();                                                                               
         list.add("a");                                                                                                           
         list.add("b");                                                                                                           

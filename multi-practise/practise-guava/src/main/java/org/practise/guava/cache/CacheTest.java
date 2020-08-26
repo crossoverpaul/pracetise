@@ -1,12 +1,10 @@
 package org.practise.guava.cache;
 
-import org.junit.Test;
 
 import com.google.common.cache.*;
 
 public class CacheTest {
 
-	@Test
     public void TestLoadingCache() throws Exception{
         LoadingCache<String,String> cahceBuilder=CacheBuilder
         .newBuilder()

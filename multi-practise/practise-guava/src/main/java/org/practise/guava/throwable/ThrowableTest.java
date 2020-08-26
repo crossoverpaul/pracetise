@@ -2,13 +2,11 @@ package org.practise.guava.throwable;
 
 import java.io.IOException;
 
-import org.junit.Test;
 
 import com.google.common.base.Throwables;
 
 public class ThrowableTest {
 
-	@Test
     public void testThrowables(){
         try {
             throw new Exception();
@@ -19,7 +17,6 @@ public class ThrowableTest {
         }
     }
     
-    @Test
     public void call() throws IOException {
         try {
             throw new IOException();

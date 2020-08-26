@@ -2,7 +2,6 @@ package org.practise.guava.multi;
 
 import java.util.*;
 
-import org.junit.Test;
 
 import com.google.common.collect.HashMultiset;
 import com.google.common.collect.Lists;
@@ -10,7 +9,6 @@ import com.google.common.collect.Multiset;
 
 public class MultiTest {
 
-	@Test
 	public void testWordCount(){
         String strWorld="wer|dffd|ddsa|dfd|dreg|de|dr|ce|ghrt|cf|gt|ser|tg|ghrt|cf|gt|" +
                 "ser|tg|gt|kldf|dfg|vcd|fg|gt|ls|lser|dfr|wer|dffd|ddsa|dfd|dreg|de|dr|" +
@@ -32,7 +30,6 @@ public class MultiTest {
         }
 	}
 	
-	@Test
 	public void testMultsetWordCount() {
 		String strWorld="wer|dffd|ddsa|dfd|dreg|de|dr|ce|ghrt|cf|gt|ser|tg|ghrt|cf|gt|" +
                 "ser|tg|gt|kldf|dfg|vcd|fg|gt|ls|lser|dfr|wer|dffd|ddsa|dfd|dreg|de|dr|" +

@@ -1,12 +1,10 @@
 package org.practise.guava.multi;
 
-import org.junit.Test;
 
 import com.google.common.collect.*;
 
 public class BiMapTest {
 
-	@Test
     public void BimapTest(){
         BiMap<Integer,String> logfileMap = HashBiMap.create(); 
         logfileMap.put(1,"a.log");
@@ -18,7 +16,6 @@ public class BiMapTest {
     }
 	
 	
-	@Test
     public void BimapTest2(){
         BiMap<Integer,String> logfileMap = HashBiMap.create(); 
         logfileMap.put(1,"a.log");

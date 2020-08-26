@@ -2,11 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/practise-guava/src/main/java/org/practise/guava/multiMap/MultiMapTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-guava/src/main/java/org/practise/guava/multiMap/StudentScore.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_slf4j_slf4j_api_1_7_25.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi-practise.iml" beforeDir="false" afterPath="$PROJECT_DIR$/multi-practise.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-java8/practise-java8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-java8/practise-java8.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/TwoSum.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/A00001TwoSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practise-mybatisSourceCode/practise-mybatisSourceCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-mybatisSourceCode/practise-mybatisSourceCode.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practise-netty/practise-netty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-netty/practise-netty.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/practise-proxy/practise-proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-proxy/practise-proxy.iml" afterDir="false" />
@@ -48,18 +49,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
-    <option name="width" value="1920" />
-    <option name="height" value="1003" />
-  </component>
   <component name="ProjectId" id="1d6k81pQrZK3dORUSgjqToUjLLF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/practise-guava" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -82,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Huiwenshu20200610">
+  <component name="RunManager" selected="Application.MultiMapTest">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -207,6 +203,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="MultiMapTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.practise.guava.multiMap.MultiMapTest" />
+      <module name="practise-guava" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.practise.guava.multiMap.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.guozz.practise.Test" />
       <module name="practise-slf4j" />
@@ -302,9 +312,11 @@
       <item itemvalue="Application.Test" />
       <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Huiwenshu20200610" />
+      <item itemvalue="Application.MultiMapTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultiMapTest" />
         <item itemvalue="Application.Huiwenshu20200610" />
         <item itemvalue="Application.Test (1)" />
       </list>
@@ -333,6 +345,7 @@
       <workItem from="1538182339739" duration="203000" />
       <workItem from="1544148367158" duration="15000" />
       <workItem from="1591752769504" duration="1608000" />
+      <workItem from="1598424282157" duration="272000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>
@@ -361,7 +374,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -378,6 +393,17 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交回文数算法" />
     <option name="LAST_COMMIT_MESSAGE" value="提交回文数算法" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/practise-guava/src/main/java/org/practise/guava/multiMap/MultiMapTest.java</url>
+          <line>12</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
