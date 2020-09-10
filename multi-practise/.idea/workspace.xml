@@ -1,19 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/practise-algorithm/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/Test.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="新增提交选择排序算法">
+      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/AlgorithmUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_BubbleSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-java8/practise-java8.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-java8/practise-java8.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-mybatisSourceCode/practise-mybatisSourceCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-mybatisSourceCode/practise-mybatisSourceCode.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-netty/practise-netty.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-netty/practise-netty.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-proxy/practise-proxy.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-proxy/practise-proxy.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-slf4j/practise-slf4j.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-slf4j/practise-slf4j.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_SelectionSort.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -64,6 +56,9 @@
     <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator.CNBJWK\git\multi-practise\practise-slf4j\src\main\java" />
     </key>
@@ -80,7 +75,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code01_SelectionSort">
+  <component name="RunManager" selected="Application.Code01_BubbleSort">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -187,6 +182,14 @@
     </configuration>
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code01_BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code01_BubbleSort" />
+      <module name="practisealgorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -324,9 +327,11 @@
       <item itemvalue="Application.Huiwenshu20200610" />
       <item itemvalue="Application.MultiMapTest" />
       <item itemvalue="Application.Code01_SelectionSort" />
+      <item itemvalue="Application.Code01_BubbleSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code01_BubbleSort" />
         <item itemvalue="Application.Code01_SelectionSort" />
         <item itemvalue="Application.MultiMapTest" />
         <item itemvalue="Application.Huiwenshu20200610" />
@@ -358,7 +363,7 @@
       <workItem from="1544148367158" duration="15000" />
       <workItem from="1591752769504" duration="1608000" />
       <workItem from="1598424282157" duration="272000" />
-      <workItem from="1599703502895" duration="5837000" />
+      <workItem from="1599703502895" duration="8004000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>
@@ -367,7 +372,14 @@
       <option name="project" value="LOCAL" />
       <updated>1591754364864</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="新增提交选择排序算法">
+      <created>1599719794027</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1599719794027</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -405,7 +417,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交回文数算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交回文数算法" />
+    <MESSAGE value="新增提交选择排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增提交选择排序算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -414,11 +427,6 @@
           <url>file://$PROJECT_DIR$/practise-guava/src/main/java/org/practise/guava/multiMap/MultiMapTest.java</url>
           <line>12</line>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_SelectionSort.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
