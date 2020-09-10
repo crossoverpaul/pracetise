@@ -6,27 +6,28 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="practise-jodd" />
+        <module name="practise-promote" />
         <module name="practisewebsoket" />
-        <module name="practise-leetcode" />
+        <module name="practise-websoket" />
+        <module name="practise-spring-boot" />
         <module name="practisejava8inaction" />
         <module name="practise-thread" />
         <module name="practis-structure" />
+        <module name="practise-jodd" />
         <module name="practise-netty" />
         <module name="practise-guava" />
-        <module name="practise-promote" />
+        <module name="practisealgorithm" />
+        <module name="practise-proxy" />
         <module name="practise-json" />
         <module name="practise-storm" />
+        <module name="practise-mybatisSourceCode" />
         <module name="practise-java8inaction" />
         <module name="practise-slf4j" />
-        <module name="practise-spring-boot" />
-        <module name="practise-websoket" />
-        <module name="practise-spring" />
+        <module name="practise-leetcode" />
         <module name="practise-java8" />
         <module name="practise-upgrade" />
         <module name="practise-hadoop" />
-        <module name="practise-proxy" />
-        <module name="practise-mybatisSourceCode" />
+        <module name="practise-spring" />
         <module name="practise-upgradJava" />
       </profile>
     </annotationProcessing>
@@ -52,6 +53,7 @@
       <module name="practise-upgrade" target="1.5" />
       <module name="practise-upgradJava" target="8" />
       <module name="practise-websoket" target="1.5" />
+      <module name="practisealgorithm" target="1.5" />
       <module name="practisejava8inaction" target="8" />
       <module name="practisewebsoket" target="1.8" />
       <module name="untitled" target="1.5" />

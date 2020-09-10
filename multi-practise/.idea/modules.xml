@@ -23,6 +23,7 @@
       <module fileurl="file://$PROJECT_DIR$/practise-upgradJava/practise-upgradJava.iml" filepath="$PROJECT_DIR$/practise-upgradJava/practise-upgradJava.iml" />
       <module fileurl="file://$PROJECT_DIR$/practise-upgrade/practise-upgrade.iml" filepath="$PROJECT_DIR$/practise-upgrade/practise-upgrade.iml" />
       <module fileurl="file://$PROJECT_DIR$/practise-websoket/practise-websoket.iml" filepath="$PROJECT_DIR$/practise-websoket/practise-websoket.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-algorithm/practisealgorithm.iml" filepath="$PROJECT_DIR$/practise-algorithm/practisealgorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/practise-java8inaction/practisejava8inaction.iml" filepath="$PROJECT_DIR$/practise-java8inaction/practisejava8inaction.iml" />
       <module fileurl="file://$PROJECT_DIR$/practise-websoket/practisewebsoket.iml" filepath="$PROJECT_DIR$/practise-websoket/practisewebsoket.iml" />
     </modules>

@@ -27,5 +27,6 @@
         <module>practise-java8inaction</module>
         <module>practise-leetcode</module>
         <module>practise-websoket</module>
+        <module>practise-algorithm</module>
     </modules>
 </project>
