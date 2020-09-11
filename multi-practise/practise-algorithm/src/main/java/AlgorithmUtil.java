@@ -27,10 +27,19 @@ public class AlgorithmUtil {
 
     }
 
+    /**
+     * 系统比较器
+     * @param array2
+     */
     public static void comparator(int[] array2) {
         Arrays.sort(array2);
     }
 
+    /**
+     * 复制数组
+     * @param array1
+     * @return
+     */
     public static int[] copyArray(int[] array1) {
         int [] array = new int[array1.length];
         System.arraycopy(array1,0,array,0,array1.length);
@@ -53,7 +62,7 @@ public class AlgorithmUtil {
     }
 
     /**
-     * 两值交换
+     * 数组两值交换
      * @param array
      * @param i
      * @param j
@@ -68,6 +77,12 @@ public class AlgorithmUtil {
         array[j]=temp;
     }
 
+    /**
+     * 生成随机数组
+     * @param maxSize
+     * @param maxValue
+     * @return
+     */
     public static int[] generateRadomArray(int maxSize,int maxValue){
         // Math.random()   [0,1)
         // Math.random() * N  [0,N)

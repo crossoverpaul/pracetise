@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="新增提交选择排序算法">
-      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/AlgorithmUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_InsertionSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/AlgorithmUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/AlgorithmUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -75,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code01_BubbleSort">
+  <component name="RunManager" selected="Application.Code01_InsertionSort">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -194,6 +193,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Code01_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code01_InsertionSort" />
+      <module name="practisealgorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Code01_SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code01_SelectionSort" />
       <module name="practisealgorithm" />
@@ -223,20 +230,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="org.practise.guava.multiMap.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guozz.practise.Test" />
-      <module name="practise-slf4j" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guozz.practise.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -323,19 +316,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Test (1)" />
       <item itemvalue="Application.Huiwenshu20200610" />
       <item itemvalue="Application.MultiMapTest" />
       <item itemvalue="Application.Code01_SelectionSort" />
       <item itemvalue="Application.Code01_BubbleSort" />
+      <item itemvalue="Application.Code01_InsertionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code01_InsertionSort" />
         <item itemvalue="Application.Code01_BubbleSort" />
         <item itemvalue="Application.Code01_SelectionSort" />
         <item itemvalue="Application.MultiMapTest" />
         <item itemvalue="Application.Huiwenshu20200610" />
-        <item itemvalue="Application.Test (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -363,7 +356,8 @@
       <workItem from="1544148367158" duration="15000" />
       <workItem from="1591752769504" duration="1608000" />
       <workItem from="1598424282157" duration="272000" />
-      <workItem from="1599703502895" duration="8004000" />
+      <workItem from="1599703502895" duration="8225000" />
+      <workItem from="1599788607079" duration="2397000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>
@@ -379,7 +373,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599719794027</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="新增提交选择排序算法">
+      <created>1599737289885</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1599737289885</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
