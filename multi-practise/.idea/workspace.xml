@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="提交leetcode第四题">
-      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_BSExist.java" afterDir="false" />
+    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="提交代码">
+      <change afterPath="$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/Algorithm05.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,6 +55,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.guozz.practise.leetcode" />
       <recent name="" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -353,7 +354,7 @@
       <workItem from="1599788607079" duration="2427000" />
       <workItem from="1600043623547" duration="4439000" />
       <workItem from="1600066736331" duration="191000" />
-      <workItem from="1600075495432" duration="2740000" />
+      <workItem from="1600075495432" duration="5289000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>
@@ -390,7 +391,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600048627449</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="提交代码">
+      <created>1600078406154</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1600078406154</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -431,7 +439,8 @@
     <MESSAGE value="新增提交选择排序算法" />
     <MESSAGE value="新增提交插入排序算法" />
     <MESSAGE value="提交leetcode第四题" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交leetcode第四题" />
+    <MESSAGE value="提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
