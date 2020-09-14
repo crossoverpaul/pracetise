@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="新增提交选择排序算法">
-      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_InsertionSort.java" afterDir="false" />
+    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="新增提交插入排序算法">
+      <change afterPath="$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/Algorithm04.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/AlgorithmUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/AlgorithmUtil.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code01_InsertionSort">
+  <component name="RunManager" selected="Application.Algorithm04">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -185,6 +184,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Algorithm04" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guozz.practise.leetcode.Algorithm04" />
+      <module name="practise-leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guozz.practise.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Code01_BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code01_BubbleSort" />
       <module name="practisealgorithm" />
@@ -205,20 +218,6 @@
       <option name="MAIN_CLASS_NAME" value="Code01_SelectionSort" />
       <module name="practisealgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Huiwenshu20200610" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guozz.practise.leetcode.Huiwenshu20200610" />
-      <module name="practise-leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guozz.practise.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -316,19 +315,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Huiwenshu20200610" />
       <item itemvalue="Application.MultiMapTest" />
       <item itemvalue="Application.Code01_SelectionSort" />
       <item itemvalue="Application.Code01_BubbleSort" />
       <item itemvalue="Application.Code01_InsertionSort" />
+      <item itemvalue="Application.Algorithm04" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Algorithm04" />
         <item itemvalue="Application.Code01_InsertionSort" />
         <item itemvalue="Application.Code01_BubbleSort" />
         <item itemvalue="Application.Code01_SelectionSort" />
         <item itemvalue="Application.MultiMapTest" />
-        <item itemvalue="Application.Huiwenshu20200610" />
       </list>
     </recent_temporary>
   </component>
@@ -357,7 +356,8 @@
       <workItem from="1591752769504" duration="1608000" />
       <workItem from="1598424282157" duration="272000" />
       <workItem from="1599703502895" duration="8225000" />
-      <workItem from="1599788607079" duration="2397000" />
+      <workItem from="1599788607079" duration="2427000" />
+      <workItem from="1600043623547" duration="3718000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>
@@ -380,7 +380,14 @@
       <option name="project" value="LOCAL" />
       <updated>1599737289885</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增提交插入排序算法">
+      <created>1599791178815</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1599791178816</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -419,7 +426,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交回文数算法" />
     <MESSAGE value="新增提交选择排序算法" />
-    <option name="LAST_COMMIT_MESSAGE" value="新增提交选择排序算法" />
+    <MESSAGE value="新增提交插入排序算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增提交插入排序算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -429,8 +437,27 @@
           <line>12</line>
           <option name="timeStamp" value="1" />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/Algorithm04.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/Algorithm04.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <watches-manager>
+      <configuration name="Application">
+        <watch expression="str.charAt(j)" />
+        <watch expression="index" />
+        <watch expression="sArr[r]" />
+        <watch expression="hash[sArr[r]]" />
+        <watch expression="result" />
+      </configuration>
+    </watches-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
