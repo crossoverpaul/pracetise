@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="提交代码">
-      <change afterPath="$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/Algorithm05.java" afterDir="false" />
+    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="临时提交代码">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/Algorithm05.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/Algorithm05.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -74,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code01_BSExist">
+  <component name="RunManager" selected="Application.Algorithm05">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -199,6 +199,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Algorithm05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.guozz.practise.leetcode.Algorithm05" />
+      <module name="practise-leetcode" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.guozz.practise.leetcode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Code01_BSExist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code01_BSExist" />
       <module name="practisealgorithm" />
@@ -217,14 +231,6 @@
     </configuration>
     <configuration name="Code01_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Code01_InsertionSort" />
-      <module name="practisealgorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code01_SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code01_SelectionSort" />
       <module name="practisealgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -310,19 +316,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Code01_SelectionSort" />
       <item itemvalue="Application.Code01_BubbleSort" />
       <item itemvalue="Application.Code01_InsertionSort" />
       <item itemvalue="Application.Algorithm04" />
       <item itemvalue="Application.Code01_BSExist" />
+      <item itemvalue="Application.Algorithm05" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Algorithm05" />
         <item itemvalue="Application.Code01_BSExist" />
         <item itemvalue="Application.Algorithm04" />
         <item itemvalue="Application.Code01_InsertionSort" />
         <item itemvalue="Application.Code01_BubbleSort" />
-        <item itemvalue="Application.Code01_SelectionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -354,7 +360,8 @@
       <workItem from="1599788607079" duration="2427000" />
       <workItem from="1600043623547" duration="4439000" />
       <workItem from="1600066736331" duration="191000" />
-      <workItem from="1600075495432" duration="5289000" />
+      <workItem from="1600075495432" duration="5314000" />
+      <workItem from="1600133331543" duration="873000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>
@@ -398,7 +405,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600078406154</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="临时提交代码">
+      <created>1600081964833</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1600081964833</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -440,7 +454,8 @@
     <MESSAGE value="新增提交插入排序算法" />
     <MESSAGE value="提交leetcode第四题" />
     <MESSAGE value="提交代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交代码" />
+    <MESSAGE value="临时提交代码" />
+    <option name="LAST_COMMIT_MESSAGE" value="临时提交代码" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
