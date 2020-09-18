@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="临时提交代码">
-      <change afterPath="$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/Algorithm06.java" afterDir="false" />
+    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="增加最长回文子串 动态规划法">
+      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code05_BSNearLeft.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -47,7 +47,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../qdcloud" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -55,8 +55,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.guozz.practise.leetcode" />
       <recent name="" />
+      <recent name="com.guozz.practise.leetcode" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Administrator.CNBJWK\git\multi-practise\practise-slf4j\src\main\java" />
@@ -74,7 +74,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Algorithm06">
+  <component name="RunManager" selected="Application.Code05_BSNearLeft">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -235,8 +235,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code01_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Code01_InsertionSort" />
+    <configuration name="Code05_BSNearLeft" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Code05_BSNearLeft" />
       <module name="practisealgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <method v="2">
@@ -322,19 +322,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Code01_InsertionSort" />
       <item itemvalue="Application.Algorithm04" />
       <item itemvalue="Application.Code01_BSExist" />
       <item itemvalue="Application.Algorithm05" />
       <item itemvalue="Application.Algorithm06" />
+      <item itemvalue="Application.Code05_BSNearLeft" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code05_BSNearLeft" />
         <item itemvalue="Application.Algorithm06" />
         <item itemvalue="Application.Algorithm05" />
         <item itemvalue="Application.Code01_BSExist" />
         <item itemvalue="Application.Algorithm04" />
-        <item itemvalue="Application.Code01_InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -372,7 +372,7 @@
       <workItem from="1600237132779" duration="3033000" />
       <workItem from="1600307150376" duration="1781000" />
       <workItem from="1600338235604" duration="667000" />
-      <workItem from="1600392552700" duration="1019000" />
+      <workItem from="1600392552700" duration="2901000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>
@@ -430,7 +430,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600134321960</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="增加最长回文子串 动态规划法">
+      <created>1600393645857</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1600393645857</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -473,7 +480,8 @@
     <MESSAGE value="提交leetcode第四题" />
     <MESSAGE value="提交代码" />
     <MESSAGE value="临时提交代码" />
-    <option name="LAST_COMMIT_MESSAGE" value="临时提交代码" />
+    <MESSAGE value="增加最长回文子串 动态规划法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加最长回文子串 动态规划法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -517,6 +525,11 @@
           <url>file://$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/Algorithm06.java</url>
           <line>143</line>
           <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/practise-leetcode/src/main/java/com/guozz/practise/leetcode/Algorithm06.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
