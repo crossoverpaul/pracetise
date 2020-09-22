@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="增加寻找有序数组中最左侧大于当前值的问题">
-      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code05_BSNearRight.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="在arr上，找满足&lt;=value的最右位置">
+      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code05_xor.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-mybatisSourceCode/practise-mybatisSourceCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-mybatisSourceCode/practise-mybatisSourceCode.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -29,6 +26,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="SET_USER_NAME_GLOBALLY" value="false" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -78,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code05_BSNearRight">
+  <component name="RunManager" selected="Application.Code05_XOR">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -189,20 +187,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Algorithm05" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.guozz.practise.leetcode.Algorithm05" />
-      <module name="practise-leetcode" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.guozz.practise.leetcode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Algorithm06" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.guozz.practise.leetcode.Algorithm06" />
       <module name="practise-leetcode" />
@@ -241,6 +225,20 @@
     </configuration>
     <configuration name="Code05_BSNearRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vip.Code05_BSNearRight" />
+      <module name="practise-algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code05_XOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.Code05_XOR" />
       <module name="practise-algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -332,19 +330,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Algorithm05" />
       <item itemvalue="Application.Algorithm06" />
       <item itemvalue="Application.Code05_BSNearLeft" />
       <item itemvalue="Application.Code01_InsertionSort" />
       <item itemvalue="Application.Code05_BSNearRight" />
+      <item itemvalue="Application.Code05_XOR" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code05_XOR" />
         <item itemvalue="Application.Code05_BSNearRight" />
         <item itemvalue="Application.Code01_InsertionSort" />
         <item itemvalue="Application.Code05_BSNearLeft" />
         <item itemvalue="Application.Algorithm06" />
-        <item itemvalue="Application.Algorithm05" />
       </list>
     </recent_temporary>
   </component>
@@ -386,7 +384,7 @@
       <workItem from="1600396208145" duration="259000" />
       <workItem from="1600421367800" duration="1578000" />
       <workItem from="1600685008277" duration="642000" />
-      <workItem from="1600740328438" duration="311000" />
+      <workItem from="1600740328438" duration="1621000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>
@@ -458,7 +456,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600395811188</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="在arr上，找满足&lt;=value的最右位置">
+      <created>1600740889110</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1600740889111</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -503,7 +508,8 @@
     <MESSAGE value="临时提交代码" />
     <MESSAGE value="增加最长回文子串 动态规划法" />
     <MESSAGE value="增加寻找有序数组中最左侧大于当前值的问题" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加寻找有序数组中最左侧大于当前值的问题" />
+    <MESSAGE value="在arr上，找满足&lt;=value的最右位置" />
+    <option name="LAST_COMMIT_MESSAGE" value="在arr上，找满足&lt;=value的最右位置" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
