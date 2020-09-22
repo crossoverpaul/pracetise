@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="增加寻找有序数组中最左侧大于当前值的问题">
-      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/zuo/MyStack01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code05_BSNearRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/AlgorithmUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/AlgorithmUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_BSExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_BSExist.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_InsertionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code01_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_SelectionSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/Code05_BSNearLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code05_BSNearLeft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-mybatisSourceCode/practise-mybatisSourceCode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/practise-mybatisSourceCode/practise-mybatisSourceCode.iml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -37,7 +34,7 @@
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="$MAVEN_REPOSITORY$" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../apache-maven-3.5.3" />
+        <option name="mavenHome" value="E:/apache-maven-3.5.3" />
         <option name="userSettingsFile" value="D:\java\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
@@ -57,10 +54,11 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.runner" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="vip" />
       <recent name="" />
       <recent name="com.guozz.practise.leetcode" />
     </key>
@@ -80,7 +78,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code01_InsertionSort">
+  <component name="RunManager" selected="Application.Code05_BSNearRight">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -219,14 +217,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code01_BSExist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vip.Code01_BSExist" />
-      <module name="practisealgorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Code01_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vip.Code01_InsertionSort" />
       <module name="practisealgorithm" />
@@ -245,6 +235,20 @@
       <option name="MAIN_CLASS_NAME" value="vip.Code05_BSNearLeft" />
       <module name="practisealgorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code05_BSNearRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.Code05_BSNearRight" />
+      <module name="practise-algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -328,19 +332,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Code01_BSExist" />
       <item itemvalue="Application.Algorithm05" />
       <item itemvalue="Application.Algorithm06" />
       <item itemvalue="Application.Code05_BSNearLeft" />
       <item itemvalue="Application.Code01_InsertionSort" />
+      <item itemvalue="Application.Code05_BSNearRight" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code05_BSNearRight" />
         <item itemvalue="Application.Code01_InsertionSort" />
         <item itemvalue="Application.Code05_BSNearLeft" />
         <item itemvalue="Application.Algorithm06" />
         <item itemvalue="Application.Algorithm05" />
-        <item itemvalue="Application.Code01_BSExist" />
       </list>
     </recent_temporary>
   </component>
@@ -381,6 +385,8 @@
       <workItem from="1600392552700" duration="3186000" />
       <workItem from="1600396208145" duration="259000" />
       <workItem from="1600421367800" duration="1578000" />
+      <workItem from="1600685008277" duration="642000" />
+      <workItem from="1600740328438" duration="311000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>

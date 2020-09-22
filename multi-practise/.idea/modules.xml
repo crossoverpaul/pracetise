@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/multi-practise.iml" filepath="$PROJECT_DIR$/multi-practise.iml" />
       <module fileurl="file://$PROJECT_DIR$/practis-structure/practis-structure.iml" filepath="$PROJECT_DIR$/practis-structure/practis-structure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/practise-algorithm/practise-algorithm.iml" filepath="$PROJECT_DIR$/practise-algorithm/practise-algorithm.iml" />
       <module fileurl="file://$PROJECT_DIR$/practise-guava/practise-guava.iml" filepath="$PROJECT_DIR$/practise-guava/practise-guava.iml" />
       <module fileurl="file://$PROJECT_DIR$/practise-hadoop/practise-hadoop.iml" filepath="$PROJECT_DIR$/practise-hadoop/practise-hadoop.iml" />
       <module fileurl="file://$PROJECT_DIR$/practise-java8/practise-java8.iml" filepath="$PROJECT_DIR$/practise-java8/practise-java8.iml" />
