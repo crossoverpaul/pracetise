@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="TwoStackQueen">
-      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/zuo/StackReverse.java" afterDir="false" />
+    <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="StackReverse">
+      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code07_EvenTimesOddTimes.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -76,7 +76,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.StackReverse">
+  <component name="RunManager" selected="Application.Code07_EvenTimesOddTimes">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -187,20 +187,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code01_InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vip.Code01_InsertionSort" />
-      <module name="practisealgorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vip.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Code05_BSNearRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vip.Code05_BSNearRight" />
       <module name="practise-algorithm" />
@@ -217,6 +203,20 @@
     </configuration>
     <configuration name="Code05_XOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="vip.Code05_XOR" />
+      <module name="practise-algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code07_EvenTimesOddTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.Code07_EvenTimesOddTimes" />
       <module name="practise-algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
@@ -336,19 +336,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Code01_InsertionSort" />
       <item itemvalue="Application.Code05_BSNearRight" />
       <item itemvalue="Application.Code05_XOR" />
       <item itemvalue="Application.TwoStackQueen" />
       <item itemvalue="Application.StackReverse" />
+      <item itemvalue="Application.Code07_EvenTimesOddTimes" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Code07_EvenTimesOddTimes" />
         <item itemvalue="Application.StackReverse" />
         <item itemvalue="Application.TwoStackQueen" />
         <item itemvalue="Application.Code05_XOR" />
         <item itemvalue="Application.Code05_BSNearRight" />
-        <item itemvalue="Application.Code01_InsertionSort" />
       </list>
     </recent_temporary>
   </component>
@@ -392,7 +392,9 @@
       <workItem from="1600685008277" duration="642000" />
       <workItem from="1600740328438" duration="2313000" />
       <workItem from="1600759317186" duration="2814000" />
-      <workItem from="1600770005055" duration="3587000" />
+      <workItem from="1600770005055" duration="3838000" />
+      <workItem from="1600822172728" duration="1288000" />
+      <workItem from="1600824060382" duration="589000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>
@@ -485,7 +487,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600761095544</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="StackReverse">
+      <created>1600773813017</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1600773813017</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -533,7 +542,8 @@
     <MESSAGE value="在arr上，找满足&lt;=value的最右位置" />
     <MESSAGE value="异或" />
     <MESSAGE value="TwoStackQueen" />
-    <option name="LAST_COMMIT_MESSAGE" value="TwoStackQueen" />
+    <MESSAGE value="StackReverse" />
+    <option name="LAST_COMMIT_MESSAGE" value="StackReverse" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
