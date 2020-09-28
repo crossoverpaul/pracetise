@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="df395322-0956-4e7d-a9fb-8e1304de4457" name="Default" comment="StackReverse">
-      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code07_EvenTimesOddTimes.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.idea/pracetise.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-algorithm/practise-algorithm.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/class02/Code01_reverseList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_BSExist.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/class01/Code01_BSExist.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/class01/Code01_BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_InsertionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/class01/Code01_InsertionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_SelectionSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/class01/Code01_SelectionSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code05_BSNearLeft.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/class01/Code05_BSNearLeft.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code05_BSNearRight.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/class01/Code05_BSNearRight.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code05_XOR.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/class01/Code05_XOR.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code07_EvenTimesOddTimes.java" beforeDir="false" afterPath="$PROJECT_DIR$/practise-algorithm/src/main/java/vip/class01/Code07_EvenTimesOddTimes.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -13,6 +27,20 @@
   </component>
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="multi-practise" />
@@ -45,6 +73,7 @@
   <component name="ProjectId" id="1d6k81pQrZK3dORUSgjqToUjLLF" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
@@ -76,7 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Code07_EvenTimesOddTimes">
+  <component name="RunManager" selected="Application.ArrayWindow">
     <configuration default="true" type="JUnitTestDiscovery" factoryName="JUnit Test Discovery" changeList="All">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -187,55 +216,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Code05_BSNearRight" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vip.Code05_BSNearRight" />
-      <module name="practise-algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vip.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code05_XOR" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vip.Code05_XOR" />
-      <module name="practise-algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vip.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Code07_EvenTimesOddTimes" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="vip.Code07_EvenTimesOddTimes" />
-      <module name="practise-algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="vip.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackReverse" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuo.StackReverse" />
+    <configuration name="ArrayWindow" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuo.ArrayWindow" />
       <module name="practise-algorithm" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="zuo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code01_BSExist" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.class01.Code01_BSExist" />
+      <module name="practise-algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Code01_BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="vip.class01.Code01_BubbleSort" />
+      <module name="practise-algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="vip.class01.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortStackByStack" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="zuo.SortStackByStack" />
+      <module name="practise-algorithm" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="zuo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.practise.upgrade.pattern.observer.Test" />
+      <module name="practise-upgrade" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.practise.upgrade.pattern.observer.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -247,20 +290,6 @@
       <option name="MAIN_CLASS_NAME" value="Test" />
       <module name="practise-slf4j" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TwoStackQueen" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="zuo.TwoStackQueen" />
-      <module name="practise-algorithm" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="zuo.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -336,19 +365,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.Test" />
-      <item itemvalue="Application.Code05_BSNearRight" />
-      <item itemvalue="Application.Code05_XOR" />
-      <item itemvalue="Application.TwoStackQueen" />
-      <item itemvalue="Application.StackReverse" />
-      <item itemvalue="Application.Code07_EvenTimesOddTimes" />
+      <item itemvalue="Application.SortStackByStack" />
+      <item itemvalue="Application.Code01_BSExist" />
+      <item itemvalue="Application.Test (1)" />
+      <item itemvalue="Application.Code01_BubbleSort" />
+      <item itemvalue="Application.ArrayWindow" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Code07_EvenTimesOddTimes" />
-        <item itemvalue="Application.StackReverse" />
-        <item itemvalue="Application.TwoStackQueen" />
-        <item itemvalue="Application.Code05_XOR" />
-        <item itemvalue="Application.Code05_BSNearRight" />
+        <item itemvalue="Application.ArrayWindow" />
+        <item itemvalue="Application.Code01_BubbleSort" />
+        <item itemvalue="Application.Test (1)" />
+        <item itemvalue="Application.Code01_BSExist" />
+        <item itemvalue="Application.SortStackByStack" />
       </list>
     </recent_temporary>
   </component>
@@ -395,6 +424,9 @@
       <workItem from="1600770005055" duration="3838000" />
       <workItem from="1600822172728" duration="1288000" />
       <workItem from="1600824060382" duration="589000" />
+      <workItem from="1600932640621" duration="1494000" />
+      <workItem from="1601028052322" duration="190000" />
+      <workItem from="1601171086399" duration="10524000" />
     </task>
     <task id="LOCAL-00001" summary="提交回文数算法">
       <created>1591754364864</created>
@@ -494,7 +526,14 @@
       <option name="project" value="LOCAL" />
       <updated>1600773813017</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="增加窗口算法">
+      <created>1601187902540</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1601187902540</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -543,7 +582,8 @@
     <MESSAGE value="异或" />
     <MESSAGE value="TwoStackQueen" />
     <MESSAGE value="StackReverse" />
-    <option name="LAST_COMMIT_MESSAGE" value="StackReverse" />
+    <MESSAGE value="增加窗口算法" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加窗口算法" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -559,17 +599,7 @@
           <option name="timeStamp" value="5" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_BSExist.java</url>
-          <line>8</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_BSExist.java</url>
-          <line>32</line>
-          <option name="timeStamp" value="7" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/practise-algorithm/src/main/java/vip/Code01_BSExist.java</url>
+          <url>file://$PROJECT_DIR$/practise-algorithm/src/main/java/vip/class01/Code01_BSExist.java</url>
           <line>41</line>
           <option name="timeStamp" value="8" />
         </line-breakpoint>
@@ -597,6 +627,11 @@
           <url>file://$PROJECT_DIR$/practise-algorithm/src/main/java/zuo/StackReverse.java</url>
           <line>25</line>
           <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/practise-algorithm/src/main/java/zuo/ArrayWindow.java</url>
+          <line>19</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

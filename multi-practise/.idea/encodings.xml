@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/practis-structure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practise-guava" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practise-hadoop" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practise-jodd" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practise-promote" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practise-spring-boot" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practise-storm" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/practise-upgrade" charset="UTF-8" />
+  </component>
+</project>
