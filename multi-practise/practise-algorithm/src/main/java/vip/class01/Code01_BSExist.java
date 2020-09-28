@@ -1,4 +1,6 @@
-package vip;
+package vip.class01;
+
+import vip.AlgorithmUtil;
 
 import java.util.Arrays;
 
@@ -14,7 +16,7 @@ public class Code01_BSExist {
         boolean success=true;
         for(int i = 0;i<times;i++){
             System.out.println("当前第"+i+"次循环");
-            int [] array1=AlgorithmUtil.generateRadomArray(maxSize ,maxValue);
+            int [] array1= AlgorithmUtil.generateRadomArray(maxSize ,maxValue);
             Arrays.sort(array1);
             AlgorithmUtil.printArray(array1);
             int value = (int) ((maxValue + 1) * Math.random()) - (int) (maxValue * Math.random());

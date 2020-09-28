@@ -1,4 +1,4 @@
-package vip;
+package vip.class01;
 
 import java.util.Arrays;
 
