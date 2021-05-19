@@ -1,5 +1,8 @@
 package com.guozz.system.rpcdemo.protocol;
 
+import java.io.Serializable;
+import java.util.UUID;
+
 /**
  * @ClassName MyHeader
  * @Description TODO
@@ -27,7 +30,8 @@ package com.guozz.system.rpcdemo.protocol;
  * ---------------------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  * -----------------------------------------------------佛祖保佑--------永无BUG
  */
-public class MyHeader {
+
+public class MyHeader implements Serializable {
 
     /**
      * 通信上的协议
@@ -35,6 +39,46 @@ public class MyHeader {
      * 2.UUID:requestId
      * 3.DATA_LEN
      */
+    int flag;
+    long requestId;
+    long dataLen;
 
+    public static MyHeader createMyHeader(byte[] msg){
+        MyHeader header = new MyHeader();
+        int size = msg.length;
+        int f=0x14141414;
+        long requesetId= Math.abs(UUID.randomUUID().getLeastSignificantBits());
+
+        header.setFlag(f);
+        header.setDataLen(size);
+        header.setRequestId(requesetId);
+
+        return header;
+    }
+
+
+    public int getFlag() {
+        return flag;
+    }
+
+    public void setFlag(int flag) {
+        this.flag = flag;
+    }
+
+    public long getRequestId() {
+        return requestId;
+    }
+
+    public void setRequestId(long requestId) {
+        this.requestId = requestId;
+    }
+
+    public long getDataLen() {
+        return dataLen;
+    }
+
+    public void setDataLen(long dataLen) {
+        this.dataLen = dataLen;
+    }
 }
 
