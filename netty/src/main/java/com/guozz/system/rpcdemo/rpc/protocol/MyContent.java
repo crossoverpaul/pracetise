@@ -1,13 +1,12 @@
-package com.guozz.system.rpcdemo.util;
+package com.guozz.system.rpcdemo.rpc.protocol;
 
-import com.guozz.system.rpcdemo.rpc.protocol.MyContent;
-import com.guozz.system.rpcdemo.rpc.protocol.MyHeader;
+import java.io.Serializable;
 
 /**
- * @ClassName PackMsg
+ * @ClassName MyContent
  * @Description TODO
  * @Author paul
- * @Date 2021/5/19 14:25
+ * @Date 2021/5/19 10:38
  * Vertion 1.0
  * -------------------------------------------------------------_ooOoo_
  * ------------------------------------------------------------o8888888o
@@ -30,29 +29,52 @@ import com.guozz.system.rpcdemo.rpc.protocol.MyHeader;
  * ---------------------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  * -----------------------------------------------------佛祖保佑--------永无BUG
  */
-public class PackMsg {
-    MyHeader myHeader;
-    MyContent myContent;
+public class MyContent implements Serializable {
 
-    public PackMsg(MyHeader myHeader, MyContent myContent) {
-        this.myHeader = myHeader;
-        this.myContent = myContent;
+    String name;
+    String methodName;
+    Class<?>[] parameterTypes;
+    Object[] args;
+    Object res;
+
+    public String getName() {
+        return name;
     }
 
-    public MyHeader getMyHeader() {
-        return myHeader;
+    public void setName(String name) {
+        this.name = name;
     }
 
-    public void setMyHeader(MyHeader myHeader) {
-        this.myHeader = myHeader;
+    public String getMethodName() {
+        return methodName;
     }
 
-    public MyContent getMyContent() {
-        return myContent;
+    public void setMethodName(String methodName) {
+        this.methodName = methodName;
     }
 
-    public void setMyContent(MyContent myContent) {
-        this.myContent = myContent;
+    public Class<?>[] getParameterTypes() {
+        return parameterTypes;
+    }
+
+    public void setParameterTypes(Class<?>[] parameterTypes) {
+        this.parameterTypes = parameterTypes;
+    }
+
+    public Object[] getArgs() {
+        return args;
+    }
+
+    public void setArgs(Object[] args) {
+        this.args = args;
+    }
+
+    public Object getRes() {
+        return res;
+    }
+
+    public void setRes(Object res) {
+        this.res = res;
     }
 }
 

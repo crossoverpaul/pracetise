@@ -1,13 +1,10 @@
-package com.guozz.system.rpcdemo.util;
-
-import com.guozz.system.rpcdemo.rpc.protocol.MyContent;
-import com.guozz.system.rpcdemo.rpc.protocol.MyHeader;
+package com.guozz.jvm;
 
 /**
- * @ClassName PackMsg
+ * @ClassName Test
  * @Description TODO
  * @Author paul
- * @Date 2021/5/19 14:25
+ * @Date 2021/5/20 10:20
  * Vertion 1.0
  * -------------------------------------------------------------_ooOoo_
  * ------------------------------------------------------------o8888888o
@@ -30,29 +27,14 @@ import com.guozz.system.rpcdemo.rpc.protocol.MyHeader;
  * ---------------------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  * -----------------------------------------------------佛祖保佑--------永无BUG
  */
-public class PackMsg {
-    MyHeader myHeader;
-    MyContent myContent;
+public class Test {
+    private static final int _1MB = 1024*1024;
+    public static void main(String[] args) {
+        byte[] a = new byte[2*_1MB];
+        byte[] b = new byte[2*_1MB];
+        byte[] c = new byte[2*_1MB];
+        byte[] d = new byte[3*_1MB];
 
-    public PackMsg(MyHeader myHeader, MyContent myContent) {
-        this.myHeader = myHeader;
-        this.myContent = myContent;
-    }
-
-    public MyHeader getMyHeader() {
-        return myHeader;
-    }
-
-    public void setMyHeader(MyHeader myHeader) {
-        this.myHeader = myHeader;
-    }
-
-    public MyContent getMyContent() {
-        return myContent;
-    }
-
-    public void setMyContent(MyContent myContent) {
-        this.myContent = myContent;
     }
 }
 

@@ -1,9 +1,10 @@
-package com.guozz.system.rpcdemo.protocol;
+package com.guozz.system.rpcdemo.rpc.protocol;
 
 import java.io.Serializable;
+import java.util.UUID;
 
 /**
- * @ClassName MyContent
+ * @ClassName MyHeader
  * @Description TODO
  * @Author paul
  * @Date 2021/5/19 10:38
@@ -29,52 +30,55 @@ import java.io.Serializable;
  * ---------------------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  * -----------------------------------------------------佛祖保佑--------永无BUG
  */
-public class MyContent implements Serializable {
 
-    String name;
-    String methodName;
-    Class<?>[] parameterTypes;
-    Object[] args;
-    Object res;
+public class MyHeader implements Serializable {
 
-    public String getName() {
-        return name;
+    /**
+     * 通信上的协议
+     * 1.xxx值
+     * 2.UUID:requestId
+     * 3.DATA_LEN
+     */
+    int flag;
+    long requestId;
+    long dataLen;
+
+    public static MyHeader createMyHeader(byte[] msg){
+        MyHeader header = new MyHeader();
+        int size = msg.length;
+        int f=0x14141414;
+        long requesetId= Math.abs(UUID.randomUUID().getLeastSignificantBits());
+
+        header.setFlag(f);
+        header.setDataLen(size);
+        header.setRequestId(requesetId);
+
+        return header;
     }
 
-    public void setName(String name) {
-        this.name = name;
+
+    public int getFlag() {
+        return flag;
     }
 
-    public String getMethodName() {
-        return methodName;
+    public void setFlag(int flag) {
+        this.flag = flag;
     }
 
-    public void setMethodName(String methodName) {
-        this.methodName = methodName;
+    public long getRequestId() {
+        return requestId;
     }
 
-    public Class<?>[] getParameterTypes() {
-        return parameterTypes;
+    public void setRequestId(long requestId) {
+        this.requestId = requestId;
     }
 
-    public void setParameterTypes(Class<?>[] parameterTypes) {
-        this.parameterTypes = parameterTypes;
+    public long getDataLen() {
+        return dataLen;
     }
 
-    public Object[] getArgs() {
-        return args;
-    }
-
-    public void setArgs(Object[] args) {
-        this.args = args;
-    }
-
-    public Object getRes() {
-        return res;
-    }
-
-    public void setRes(Object res) {
-        this.res = res;
+    public void setDataLen(long dataLen) {
+        this.dataLen = dataLen;
     }
 }
 

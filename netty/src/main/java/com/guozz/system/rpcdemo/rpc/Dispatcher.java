@@ -1,13 +1,10 @@
-package com.guozz.system.rpcdemo.protocol;
-
-import java.io.Serializable;
-import java.util.UUID;
+package com.guozz.system.rpcdemo.rpc;
 
 /**
- * @ClassName MyHeader
+ * @ClassName Dispatcher
  * @Description TODO
  * @Author paul
- * @Date 2021/5/19 10:38
+ * @Date 2021/5/19 14:48
  * Vertion 1.0
  * -------------------------------------------------------------_ooOoo_
  * ------------------------------------------------------------o8888888o
@@ -30,55 +27,10 @@ import java.util.UUID;
  * ---------------------------------------^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
  * -----------------------------------------------------佛祖保佑--------永无BUG
  */
+public class Dispatcher {
 
-public class MyHeader implements Serializable {
-
-    /**
-     * 通信上的协议
-     * 1.xxx值
-     * 2.UUID:requestId
-     * 3.DATA_LEN
-     */
-    int flag;
-    long requestId;
-    long dataLen;
-
-    public static MyHeader createMyHeader(byte[] msg){
-        MyHeader header = new MyHeader();
-        int size = msg.length;
-        int f=0x14141414;
-        long requesetId= Math.abs(UUID.randomUUID().getLeastSignificantBits());
-
-        header.setFlag(f);
-        header.setDataLen(size);
-        header.setRequestId(requesetId);
-
-        return header;
-    }
+    private static Dispatcher dis=null;
 
 
-    public int getFlag() {
-        return flag;
-    }
-
-    public void setFlag(int flag) {
-        this.flag = flag;
-    }
-
-    public long getRequestId() {
-        return requestId;
-    }
-
-    public void setRequestId(long requestId) {
-        this.requestId = requestId;
-    }
-
-    public long getDataLen() {
-        return dataLen;
-    }
-
-    public void setDataLen(long dataLen) {
-        this.dataLen = dataLen;
-    }
 }
 
